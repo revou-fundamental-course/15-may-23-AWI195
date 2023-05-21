@@ -1,11 +1,11 @@
-//The default cofigure <zeroing>
+/* The default cofigure (zeroing) */
 *{
     margin: 0 auto;
     padding: 0;
     text-align: center;
     font-family: 'Fira Code', monospace;
 }
-//More configure style
+/* More configure style */
 body{
     background-color: darkgrey;
 }
@@ -86,7 +86,7 @@ footer a{
     background-color: #ffa500;
     color: whitesmoke;
 }
-//Change display if in hovered and clicked
+/* Change display if in hovered and clicked */
 .hitung:hover, .hitung:active{
     font-size: small;
     border-color: #0d0;
