@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+    <title>Katik</title>
+</head>
+<body>
+    <header>
+        <h2><span class="title">Katik</span> <span class="subtitle">Kalkulator Matematik</span></h2>
+    </header>
+    <main>
+        <div class="page page-luas">
+            <h3 class="head-page">Luas Persegi</h3>
+            <div class="description">
+                <div class="square"><----S----></div><br>
+                <p class="left">Rumus Luas Persegi yaitu:</p>
+                <p>L = S x S</p><br>
+                <p class="left">Di mana:<br>L = Luas Persegi<br>S = Panjang Sisi</p><br>
+                <div>
+                    <hr><br>
+                    <label for="sisi-luas"><h3>Hitung Luas Persegi</h3></label>
+                    <input type="text" class="sisi" id="sisi-luas">
+                    <button class="hitung" name="hitung-luas" onclick="hitungLuas()">Hitung</button>
+                    <p id="output_luas"></p><br>
+                    <button class="reset" name="reset-luas" onclick="resetLuas()">Reset</button>
+                </div>
+            </div>
+        </div>
+        <div class="page page-keliling">
+            <h3 class="head-page">Keliling Persegi</h3>
+            <div class="description">
+                <div class="square"><----S----></div><br>
+                <p class="left">Rumus Keliling Persegi yaitu:</p>
+                <p>K = 4 x S</p><br>
+                <p class="left">Di mana:<br>K = Keliling Persegi<br>S = Panjang Sisi</p><br>
+                <div>
+                    <hr><br>
+                    <label for="sisi-keliling"><h3>Hitung Keliling Persegi</h3></label>
+                    <input type="text" class="sisi" id="sisi-keliling">
+                    <button class="hitung" name="hitung-keliling" onclick="hitungKeliling()">Hitung</button>
+                    <p id="output_keliling"></p><br>
+                    <button class="reset" name="reset-keliling" onclick="resetKeliling()">Reset</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        © 2023 <a href="https://github.com/AWI195" target="_blank">AWI195</a>.
+    </footer>
+</body>
+</html>
