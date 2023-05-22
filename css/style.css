@@ -19,6 +19,9 @@ main{
     margin: 40px auto;
     width: 96%;
 }
+label{
+    color: #333;
+}
 footer{
     font: 12px/33px arial;
 }
@@ -76,6 +79,10 @@ footer a{
     border: 1px solid green;
     background-color: #0d0;
     color: whitesmoke;
+}
+.output{
+    display: inline-block;
+    text-align: left;
 }
 .reset{
     width: 15%;
