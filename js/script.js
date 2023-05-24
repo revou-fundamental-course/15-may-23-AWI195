@@ -39,7 +39,8 @@ function persegi(runn){
             hitungLuas();
             break;
         case 'HK':
-            hitungKeliling();            break;
+            hitungKeliling();
+            break;
         case 'RL':
             resetLuas();
             break;
@@ -97,7 +98,8 @@ function pPanjang(runn){
             hitungLuas();
             break;
         case 'HK':
-            hitungKeliling();            break;
+            hitungKeliling();
+            break;
         case 'RL':
             resetLuas();
             break;
